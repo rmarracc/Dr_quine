@@ -59,7 +59,7 @@ Various programs that display their source code
 - We call the main define just by writing "FT()" on the source code
 - Yes I didn't closed my fd after use (and it's very dirty), but since I use open only 1 time in this case it's not a big deal
 
-### Sully`
+### Sully
 
 - One more time, The whole source code is contained in a big string
 - We store the new filename on a staticlly allocated string with sprintf
