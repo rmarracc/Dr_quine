@@ -11,7 +11,7 @@ $(GRACE):
 	clang -Wall -Wextra -Werror grace.c -o $(GRACE)
 
 $(SULLY):
-	clang -Wall -Wextra -Werror sully.c -o $(SULLY)
+	g++ sully.c -o $(SULLY)
 
 clean:
 	rm -f $(COLLEEN)
