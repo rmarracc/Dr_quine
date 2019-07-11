@@ -11,7 +11,7 @@ $(GRACE):
 	gfortran -cpp -ffixed-line-length-205 -ffree-line-length-205 -o $(GRACE) grace.f90
 
 $(SULLY):
-	gfortran -o $(SULLY) sully.f90
+	gfortran -cpp -Dtd -ffixed-line-length-601 -ffree-line-length-601 -o $(SULLY) sully.f90
 
 clean:
 	rm -f $(COLLEEN)
