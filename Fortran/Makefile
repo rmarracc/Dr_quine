@@ -8,7 +8,7 @@ $(COLLEEN):
 	gfortran -o $(COLLEEN) colleen.f90
 
 $(GRACE):
-	gfortran -o $(GRACE) grace.f90
+	gfortran -cpp -ffixed-line-length-205 -ffree-line-length-205 -o $(GRACE) grace.f90
 
 $(SULLY):
 	gfortran -o $(SULLY) sully.f90
